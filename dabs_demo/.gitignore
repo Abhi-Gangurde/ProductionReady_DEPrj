@@ -1,0 +1,40 @@
+# Databricks bundle state (CLI-generated, not source-controlled)
+.databricks/
+.bundle/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Environment / secrets — never commit these
+*.env.local
+*.env.*.local
+secrets.yml
+secrets.yaml
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/

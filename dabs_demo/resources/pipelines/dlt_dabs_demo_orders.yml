@@ -1,0 +1,12 @@
+resources:
+  pipelines:
+    pipeline_dlt_demo_orders:
+      name: dlt_demo_orders
+      libraries:
+        - glob:
+            include: ../sql_files/dtl_dabs_demo_orders.sql
+      schema: ${resources.schemas.bronze_schema.name}
+      photon: true
+      catalog: ${resources.schemas.bronze_schema.catalog_name}
+      serverless: true
+      root_path: ../sql_files
