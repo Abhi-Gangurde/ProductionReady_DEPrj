@@ -16,7 +16,6 @@ build/
 # Virtual environments
 .venv/
 venv/
-env/
 .env
 
 # Environment / secrets — never commit these
